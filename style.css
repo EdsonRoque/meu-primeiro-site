@@ -1,0 +1,90 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte base */
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #f2f2f2, #e0e0e0);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho estiloso */
+.capa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin: 0;
+    padding: 0;
+}
+
+/* Imagem do cabeçalho ocupa toda a largura */
+.img_cabecalho {
+    width: 100%;
+    height: 500px; /* ajuste conforme necessário */
+    object-fit: cover; /* mantém a proporção ao esticar */
+    display: block;
+}
+
+/* Título e subtítulo */
+.cabecalho h1 {
+    font-size: 3rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.cabecalho p {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+/* Conteúdo principal ocupa toda a largura, mas com respiro */
+#conteudo {
+    width: 100%;
+    max-width: none; /* remove limite */
+    margin: 0;
+    padding: 3rem 5%;
+    background-color: white;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.conteudo h2 {
+    color: #ee0979;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.conteudo p {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+}
+
+.conteudo ul {
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.conteudo ul li {
+    margin-bottom: 0.6rem;
+    list-style-type: "✅ ";
+}
+
+/* Rodapé ocupa toda a largura */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    width: 100%;
+}
